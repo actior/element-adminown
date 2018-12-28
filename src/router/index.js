@@ -3,13 +3,14 @@ import Router from 'vue-router'
 import Plot from '@/components/plot/plot'
 import Plotbasic from '@/components/plotbasic/plotbasic'
 import Housedata from '@/components/housedata/housedata'
+import Index from '@/components/index/index'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/plot',
       component: Plot,
     },
 
@@ -20,6 +21,10 @@ export default new Router({
     {
       path: '/housedata',
       component: Housedata
+    },
+    {
+      path:'/',
+      component:Index
     }
   ]
 })

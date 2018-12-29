@@ -55,7 +55,6 @@
       <el-container>
         <el-header>Header</el-header>
         <el-main>Main</el-main>
-        <el-footer>Footer</el-footer>
       </el-container>
     </el-container>
   </div>
@@ -81,6 +80,7 @@ export default {
 }
 
 .el-aside {
+  margin-top: 60px;
   position: fixed;
   height: 100%;
   // background-color: #d3dce6;
@@ -91,6 +91,7 @@ export default {
 }
 
 .el-main {
+  padding: 60px 0 0 200px;
   background-color: #e9eef3;
   color: #333;
   text-align: center;
@@ -109,7 +110,7 @@ body > .el-container {
 .el-container:nth-child(7) .el-aside {
   line-height: 320px;
 }
-.fontSize{
+.fontSize {
   font-size: 12px;
 }
 </style>

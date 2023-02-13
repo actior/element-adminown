@@ -1,6 +1,6 @@
 # project
 
-> A Vue.js project
+> 初始化，第一次学习前端项目
 
 ## Build Setup
 
